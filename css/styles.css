@@ -31,10 +31,12 @@ ol {
     padding: 0;
 }
 
-.container {
-    max-width:1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+.container { 
+    max-width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 
 .header-menu {
@@ -47,24 +49,27 @@ ol {
 
 .header-container {
     display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        padding: 10px 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
-.header-list{
-display: flex;
-gap: 40px;
-display: inline-block;
+.header-list {
+    padding-left: 76px;
+    display: flex;
+    gap: 40px;
+
+}
+
+.header-sys {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-address {
     display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        text-align: right;
-        font-size: 14px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 40px;
 }
 
 .header-menu:hover,
@@ -156,6 +161,34 @@ body{
     color: #ffffff;
     background-color: #404BBF;
     cursor: pointer;
+}
+
+.master-section {
+}
+
+.service {
+    padding: 188px 0;
+    width: 496px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.master {
+    margin-bottom: 48px;
+}
+
+.button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 16px 29px;
+    width: 169px;
+    height: 56px;
 }
 
 .paragraph {
