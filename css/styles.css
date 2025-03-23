@@ -32,11 +32,11 @@ ol {
 }
 
 .container { 
-    max-width: 1440px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 156px;
-    margin-right: 156px;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-menu {
@@ -170,9 +170,6 @@ body{
     padding: 188px 0;
     width: 496px;
     margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .master {
@@ -180,15 +177,15 @@ body{
 }
 
 .button {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
     gap: 10px;
-    border-radius: 4px;
+border-radius: 4px;
     padding: 16px 29px;
+    text-align: center;
+    align-items: center;
     width: 169px;
     height: 56px;
+    margin-left: 164px;
+    margin-right: 163px;
 }
 
 .paragraph {
@@ -209,6 +206,13 @@ body{
         text-transform: capitalize;
 }
 
+.master-hero-list {
+    display: flex;
+    width: 1128px;
+    margin: 120px auto;
+    gap: 24px;
+}
+
 .section-team {
     background-color: #F4F4FD;
     font-size: 36px;
@@ -219,6 +223,30 @@ body{
     background-color: #FFFFFF;
 }
 
+.list-team {
+    width: calc((100% - 72px) / 4);
+}
+
+.team {
+    text-align: center;
+}
+
+.master-team {
+    margin-bottom: 72px;
+    margin-top: 240px;
+}
+
+.list {
+    display: flex;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.team-text {
+padding: 32px 16px;
+}
 
 .master {
 font-weight: 700;
