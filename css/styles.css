@@ -240,6 +240,10 @@ border-radius: 4px;
     gap: 24px;
 }
 
+.section-features {
+    padding: 120px 0;
+}
+
 .section-team {
     background-color: #F4F4FD;
     font-size: 36px;
