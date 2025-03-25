@@ -186,6 +186,7 @@ body{
 }
 
 .master-section {
+    padding: 188px 0;
 }
 
 .service {
@@ -196,6 +197,7 @@ body{
 
 .master {
     margin-bottom: 48px;
+    max-width: 496px;
 }
 
 .button {
@@ -208,6 +210,9 @@ border-radius: 4px;
     height: 56px;
     margin-left: 164px;
     margin-right: 163px;
+    display: block;
+    min-width: 169px;
+    cursor: pointer;
 }
 
 .paragraph {
