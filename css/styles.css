@@ -185,6 +185,10 @@ body{
     cursor: pointer;
 }
 
+.master-section {
+    padding: 188px 0;
+}
+
 .service {
     padding: 188px 0;
     width: 496px;
