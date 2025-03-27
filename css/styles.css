@@ -66,7 +66,7 @@ ol {
 }
 
 .header-list {
-    padding-left: 76px;
+
     display: flex;
     gap: 40px;
 }
@@ -190,12 +190,13 @@ body{
 }
 
 .service {
-    padding: 188px 0;
-    width: 496px;
+
     margin: 0 auto;
 }
 
 .master {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 48px;
     max-width: 496px;
 }
@@ -208,8 +209,8 @@ border-radius: 4px;
     align-items: center;
     width: 169px;
     height: 56px;
-    margin-left: 164px;
-    margin-right: 163px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     min-width: 169px;
     cursor: pointer;
@@ -252,7 +253,6 @@ border-radius: 4px;
 .master-hero-list {
     display: flex;
     width: 1128px;
-    margin: 120px auto;
     gap: 24px;
 }
 
@@ -295,12 +295,10 @@ border-radius: 4px;
 
 .master-team {
     margin-bottom: 72px;
-    margin-top: 240px;
 }
 
 .master-team-list {
     text-align: center;
-    margin-top: 120px;
     margin-bottom: 72px;
 }
 
